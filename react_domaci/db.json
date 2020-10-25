@@ -1,0 +1,14 @@
+{
+  "adresar": [
+    {
+      "id": 1,
+      "ime": "Nikolina Ajduk",
+      "mail": "najduk@pmfst.hr"
+    },
+    {
+      "ime": "Ante Antic",
+      "mail": "ante@gmail.com",
+      "id": 2
+    }
+  ]
+}
