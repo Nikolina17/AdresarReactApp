@@ -1,5 +1,5 @@
 import axios from 'axios'
-const osnovniUrl = 'http://localhost:3001/api/adresar'
+const osnovniUrl = '/api/adresar'
 
 const dohvatiSve = () => {
     return axios.get(osnovniUrl);
