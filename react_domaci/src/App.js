@@ -71,7 +71,7 @@ const App = (props) => {
         <h1>Adresar</h1>
         <input type="text" placeholder="Unesi ime.." value={ime || ""} onChange={e => handleChange(e.target.value)}/>
         <ul>
-          {adresar.products.map(a =>
+          {adresar.map(a =>
             <Adresar 
             key={a.id} 
             adresar={a} 
