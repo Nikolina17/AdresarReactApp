@@ -1,5 +1,5 @@
 import axios from 'axios'
-const osnovniUrl = 'https://${react_domaci}.herokuapp.com/api/adresar'
+const osnovniUrl = 'https://${adresar-api-na}.herokuapp.com/api/adresar'
 
 const dohvatiSve = () => {
     return axios.get(osnovniUrl);
