@@ -72,7 +72,7 @@ const App = (props) => {
         <input type="text" placeholder="Unesi ime.." value={ime || ""} onChange={e => handleChange(e.target.value)}/>
         <ul>
           {adresar.map(a =>
-            <Adresar data = {this.state.data}
+            <Adresar data
             key={a.id} 
             adresar={a} 
             brisiKontakt={() => brisiKontakt(a.id)}/>
